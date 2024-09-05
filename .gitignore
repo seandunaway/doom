@@ -1,0 +1,6 @@
+.cache
+.savegame
+doom
+doom.exe
+*.dSYM
+*.pdb
