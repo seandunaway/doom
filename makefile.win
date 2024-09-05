@@ -1,6 +1,6 @@
 xwin?=/Users/sean/src/winmake/xwin
 CC?=/Users/sean/src/winmake/llvm/bin/clang
-CFLAGS+=-target x86_64-pc-windows-msvc -fuse-ld=lld -DDOOMGENERIC_RESX=1024 -DDOOMGENERIC_RESY=768 -g -w
+CFLAGS+=-target x86_64-pc-windows-msvc -fuse-ld=lld -DDOOMGENERIC_RESX=960 -DDOOMGENERIC_RESY=600 -g -w
 CFLAGS+=$(addprefix -isystem, $(header))
 LDFLAGS+=$(addprefix -L, $(addsuffix /x86_64, $(library)))
 LDLIBS+=-lgdi32 -luser32
